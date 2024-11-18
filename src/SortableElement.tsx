@@ -30,11 +30,11 @@ const SortableElement: React.FC<SortableElementProps> = ({
             }}
             onDrop={onDrop}
             style={{
-                padding: '10px',
-                margin: '5px 0',
-                backgroundColor: '#f9f9f9',
-                border: '1px solid #ddd',
-                borderRadius: '4px',
+                // padding: '10px',
+                // margin: '5px 0',
+                // backgroundColor: '#f9f9f9',
+                // border: '1px solid #ddd',
+                // borderRadius: '4px',
                 cursor: useDragHandle ? 'default' : 'grab', // Cambia según el handle
             }}
         >
